@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
-import { CartContext } from "../context/CartContext";
+import { CartContext } from "../Context/CartContext";
 
 const ProductDetails = () => {
   const { id, category } = useParams(); // Get product ID and category from URL
